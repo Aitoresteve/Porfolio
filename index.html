@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+      <!-- Tipo -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css">
+
+    <title>Portfolio</title>
+      <style type="text/css">
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          /*Header*/
+          nav{
+            z-index: 2;
+            display: flex;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            padding: 0.5em 46em;
+            background: #151515;
+        }
+        nav a{
+            padding: 0 0em 0 0;
+            color: whitesmoke;
+            font-size: 4em;
+        }
+        .menu{
+            width: 100%;
+            justify-content: space-between;
+            font-family: 'abril fatface';
+        }
+          /*Main*/
+          h1{
+              color: #151515;
+              font-family: 'abril fatface';
+              font-size: 4em;
+          }
+          h2{
+              color: #151515;
+              font-family: 'abril fatface display';
+          }
+          img{
+              width: 100%;
+              height: auto;
+              padding: 2px;
+          }
+          .c1{
+              padding: 5em 0 0 0;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+          }
+          .img1{
+              width: 100%;
+              grid-column: span 1;
+              padding: 10px 0 0 0;
+              object-fit: cover;
+          }
+          .txt1{
+              grid-column: span 1;
+              align-content: center;
+              text-align: center;
+              padding: 15em 6em;
+          }
+          .c2{
+              /*background-color: #efcb56;*/
+              background-color: #151515;
+              padding: 10em 0 10em 0;
+              align-content: center;
+              text-align: center;
+          }
+          .txt2{
+              padding: 0 20em 0 20em;
+              color: #303030;
+          }
+          .txt2 h1{
+              color: #303030;
+          }
+          .txt2 h2{
+              font-size: 1.5em;
+              color: #303030;
+          }
+          .txt2 h2 h2{
+              font-size: 1em;
+              color: #303030;
+          }
+          .work{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              box-sizing: border-box;
+              margin: 50px;
+          }
+          .t1, .t2, .t3, .t4, .t5, .t6{
+              grid-column: span 1;
+              width: 100%;
+              object-fit: cover;
+          }
+          .foto{
+              filter: grayscale();
+              padding: 10px;
+          }
+          .foto:hover{
+              filter: none;
+          }
+          .desc{
+              margin-left: 30px;
+              margin-right: 30px;
+              margin-bottom: 50px;
+          }
+          .desc h2{
+              color: #151515;
+              font-family: 'abril fatface';
+          }
+          /*FOOTER*/
+          footer{
+              /*background-color: #535851;*/
+              background-color: #151515;
+              padding: 2em 0 3em 0;
+          }
+          .footerinfo{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              width: 100%;
+              padding: 0 10em 0 10em;
+          }
+          .footerinfo a{
+              text-align: center;
+              font-size: 1.5rem;
+              color: whitesmoke;
+          }
+      </style>
+  </head>
+  <body>
+      <header>
+        <nav class="navegador">
+          <a class="menu" href="index.html">A</a>
+            </nav>          
+      </header>
+      <main>
+          <div class="c1">
+              <div class="txt1">
+              <h1 class="">Aitor Esteve Francés</h1>
+              <a class="">Estudiante de Gráfica Publucitaria en la <a href="http://www.easdalcoi.es/">EASD de Alcoy.</a> </a>
+              </div>
+              <img class="img1" src="img/IMG_0931-3.jpg" alt="">
+          </div>          
+          <div class="c2">
+              <div class="txt2">
+              <h1>Sobre mí:</h1>
+          <h2>¡Hola! Soy Aitor, bienvenidos a este espacio donde voy a mostrar algunos de mis trabajos.</h2>
+                  <h2>Me gusta diseñar y que todo aquello que hago tenga un sentido y una justificación, ya que considero que esta es una de las bases del diseño y como bien dice April Greiman <h2 class="ital">"El diseño gráfico debe seducir, educar y quizás lo más importante provocar una respuesta emocional."</h2></h2>
+                  <h2>Me considero un diseñador muy polivalente, con gran capacidad para trabajar en equipo y camaleónico que puede trabajar con todo tipo de formatos y herramientas.</h2>
+          <a>Descubre más sobre mí <a href="index7.html">aquí.</a></a>
+              </div>
+          </div>
+          <div class="work">
+          <section class="t1">
+              <a class="a" href="index2.html"><img class="foto" src="img/papeleria02.jpg" alt=""></a>
+              <div class="desc">
+              <h2>Elena Tudela</h2>
+              <p>Proyecto de rediseño de la imagen gráfica de la academia de Ballet Elena Tudela.</p>
+              </div>
+      </section>
+          <section class="t2"> 
+              <a class="a" href="index3.html"><img class="foto" src="img/Univers_Colors02.jpg" alt=""></a>
+              <div class="desc">
+              <h2>Universo de Colores</h2>
+              <p>Proyecto de diseño de una infografía sobre el color "Colors, un univers per desxifrar".</p>
+              </div>
+      </section>
+          <section class="t3">
+              <a class="a" href="index4.html"><img class="foto" src="img/flash02.jpg" alt=""></a>
+              <div class="desc">
+              <h2>Flash Magazine</h2>
+              <p>Proyecto de diseño de una revista "Flash Magazine".</p>
+              </div>
+      </section>
+            <section class="t4"> 
+              <a class="a" href="index5.html"><img class="foto" src="img/festa.jpg" alt=""></a>
+                <div class="desc">
+              <h2>Fiestas de la Calle San Sebastián</h2>
+              <p>Proyecto de diseño de una revista sobre una festividad con información variada para viajeros.</p>
+                </div>
+      </section>
+          <section class="t5">
+              <a class="a" href="index6.html"><img class="foto" src="img/vinil.jpg" alt=""></a>
+              <div class="desc">
+              <h2>Vinilo Hard GZ y Lil GZ</h2>
+              <p>Proyecto de diseño de un vinilo de edición especial para un artista.</p>
+              </div>
+      </section>
+              <section class="t6">
+              <a class="a" href="index8.html"><img class="foto" src="img/web.jpg" alt=""></a>
+              <div class="desc">
+              <h2>Web Portfolio</h2>
+              <p>Proyecto de diseño de una página web para mi portfolio.</p>
+              </div>
+      </section>
+        </div>
+      </main>
+      <footer>
+          <div class="footerinfo">
+         <a id="contact" href="https://www.instagram.com/xestevexdesign/">Instagram</a>
+              <a id="contact" href="mailto:xestevexdesign@gmail.com">e-Mail</a>
+              <a id="contact" href="https://www.behance.net/aitoresteve1">Behance</a> 
+          </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
